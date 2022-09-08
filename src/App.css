@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #000;
+  color: #fff;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  gap: 10px;
+  margin: 50px 100px;
+  border-bottom: 2px solid #fff;
+}
+
+ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+.image {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.book {
+  display: flex;
+  padding: 10px;
+  background-color: #000;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.btns {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  padding: 12px 28px;
+  color: coral;
+  border: 1px solid coral;
+  border-radius: 50px;
+}
+
+h1 {
+  font-size: 85px;
+}
+
+h2 {
+  font-size: 43px;
+}
+
+.author p {
+  font-size: 25px;
+}
+.book img {
+  height: 700px;
+}
+
+.wrapper {
+  padding: 10% 15%;
+  background-color: rgba(193, 193, 193, 0.623);
+}
+
+.praise {
+  background-color: #1f222f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
+.reviews {
+  display: flex;
+  background-color: #1f222f;
+}
+
+.appearences {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.appearence {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+  padding: 60px 100px;
+  border: 1px solid #fff;
+}
+
+
+.appearences img{
+  border-radius: 50%;
+  transform: translateY(100px);
+}
+
+.join{
+  padding: 8px 55px ;
+}
+
+.about{
+  background-color: #1f222f;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.about button{
+  width: max-content;
+}
+
+.footer{
+  padding: 20px ;
+  text-align: center;
+  background-color: coral;
+  border-color: #000;
+}
